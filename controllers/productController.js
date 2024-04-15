@@ -1,5 +1,5 @@
-const pcontroller = {
-    mostrar: 18
-}
+//const pcontroller = {
+//    mostrar: 18
+//}
 
-module.exports = pcontroller 
+//module.exports = pcontroller 

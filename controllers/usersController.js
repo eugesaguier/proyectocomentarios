@@ -1,5 +1,5 @@
-const ucontroller = {
-    mostrar: 18
-}
+//const ucontroller = {
+   // mostrar: 18
+//}
 
-module.exports = ucontroller 
+//module.exports = ucontroller 

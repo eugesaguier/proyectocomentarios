@@ -1,5 +1,5 @@
-const procontroller = {
-    mostrar: 18
-}
+//const procontroller = {
+ //   mostrar: 18
+//}
 
-module.exports = procontroller 
+//module.exports = procontroller 
