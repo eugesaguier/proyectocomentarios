@@ -1,5 +1,9 @@
-//const ucontroller = {
-   // mostrar: 18
-//}
+const usersController = {
+   register: function(req, res) {
+      res.render('register', {
+         title: 'Mercado Liebre Argentina'
+      });
+   }
+};
 
-//module.exports = ucontroller 
+module.exports = usersController;
