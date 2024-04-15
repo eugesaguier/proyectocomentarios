@@ -8,6 +8,17 @@ const usersController = {
       res.render('login',{
          title: 'Mercado Liebre Argentina'
       })
+   },
+   profile: function(req,res){
+      res.render("profile",{
+         title: "Mercado Liebre Argentina"
+      })
+   },
+
+   profileEdit: function(req,res){
+      res.render("profile-edit",{
+         title:"Mercado Liebre Argentina"
+      })
    }
 };
 
