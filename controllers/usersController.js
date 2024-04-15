@@ -3,6 +3,11 @@ const usersController = {
       res.render('register', {
          title: 'Mercado Liebre Argentina'
       });
+   },
+   login: function(req,res){
+      res.render('login',{
+         title: 'Mercado Liebre Argentina'
+      })
    }
 };
 
