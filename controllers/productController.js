@@ -1,5 +1,9 @@
-//const pcontroller = {
-//    mostrar: 18
-//}
+const productController = {
+    add: function(req,res) {
+        res.render("product-add",{
+            title: 'Mercado Liebre Argentina'
+        })
+    }
+}
 
-//module.exports = pcontroller 
+module.exports = productController 
