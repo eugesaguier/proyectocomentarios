@@ -1,3 +1,6 @@
+const db = require("../db/index")
+
+
 const usersController = {
    register: function(req, res) {
       res.render('register', {
@@ -11,7 +14,8 @@ const usersController = {
    },
    profile: function(req,res){
       res.render("profile",{
-         title: "Mercado Liebre Argentina"
+         title: "Mercado Liebre Argentina",
+         index:db.usuarios
       })
    },
 
