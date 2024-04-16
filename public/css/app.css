@@ -256,6 +256,9 @@ hr {
   box-shadow: 0 0 5px var(--green);
 }
 
+.boton-submit{
+  padding-left: 15px;
+}
 
 /*====== Footer ======*/
 .main-footer {
