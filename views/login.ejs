@@ -10,22 +10,22 @@
 				<h2 class="products-title">Ingresar</h2>
 		</div>
 			<!-- Show the "ultimos" products -->
-		<form action="" method="POST" class="col-12">
+		<form action="/users/profile" method="GET" class="col-12">
     		<h2>
         		<label for="usuario">Usuario:</label><br>
-        		<input type="text" id="usuario" name="usuario" required><br>
+        		<input type="text" id="usuario" name="usuario" pattern="JuanTheGoat" required><br>
         
         		<label for="contraseña">Contraseña:</label><br>
-        		<input type="password" id="contraseña" name="contraseña" required><br>
+        		<input type="password" id="contraseña" pattern="Juanchi" name="contraseña" required><br>
         
         		<label for="recordarme">Recordarme:</label>
-        		<input type="checkbox" id="recordarme" name="recordarme"><br><br>
+        		<input type="checkbox" id="recordarme"  name="recordarme"><br><br>
+
+				<input type="submit" value="Iniciar Sesion">
     		</h2>
 			
 		</form>
-		<div class="boton-submit">
-			<a href="/users/profile"> <input type="submit" value="Iniciar sesión"></a>
-		</div>
+
 
 
 
