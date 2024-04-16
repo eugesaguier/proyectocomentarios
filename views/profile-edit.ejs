@@ -10,31 +10,30 @@
 				<h2 class="products-title">Editar mi perfil</h2>
 			</div>
 			<!-- Show the "ultimos" products -->
-			<h2 class="col-12"><form action="/guardar-perfil" method="POST">
+			<div class="col-12"><form action="/" method="POST">
 				<label for="email">Email:</label><br>
-				<input type="email" id="email" name="email" value="<%= email %>" required><br>
+				<input type="email" id="email" name="email" value=""><br>
 				
 				<label for="usuario">Usuario:</label><br>
-				<input type="text" id="usuario" name="usuario" value="<%= usuario %>" required><br>
+				<input type="text" id="usuario" name="usuario" value=""><br>
 				
 				<label for="contraseña">Contraseña:</label><br>
-				<input type="password" id="contraseña" name="contraseña" required><br>
+				<input type="password" id="contraseña" name="contraseña"><br>
 				
 				<label for="fechaNacimiento">Fecha de nacimiento:</label><br>
-				<input type="date" id="fechaNacimiento" name="fechaNacimiento" value="<%= fechaNacimiento %>" required><br>
+				<input type="date" id="fechaNacimiento" name="fechaNacimiento" value=""><br>
 				
 				<label for="nroDocumento">Número de documento:</label><br>
-				<input type="number" id="nroDocumento" name="nroDocumento" value="<%= nroDocumento %>" required><br><br>
+				<input type="number" id="nroDocumento" name="nroDocumento" value=""><br><br>
 				
 				<label for="fotoPerfil">Foto de perfil (URL):</label><br>
-				<input type="text" id="fotoPerfil" name="fotoPerfil" value="<%= fotoPerfil %>"><br><br>
+				<input type="text" id="fotoPerfil" name="fotoPerfil" value=""><br><br>
 				
-				<input type="submit" value="Guardar cambios">
 			</form>
-			</h2>
+			<a href="/users/profile"><input type="submit" value="Guardar cambios"></a>
+			</div>
 
 
 <%- include('./partials/footer') %>
 </body>
 
-</html>

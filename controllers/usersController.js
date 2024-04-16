@@ -1,5 +1,5 @@
 const db = require("../db/index")
-
+index = db.usuarios
 
 const usersController = {
    register: function(req, res) {
@@ -15,7 +15,6 @@ const usersController = {
    profile: function(req,res){
       res.render("profile",{
          title: "Mercado Liebre Argentina",
-         index:db.usuarios
       })
    },
 
