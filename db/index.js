@@ -26,7 +26,12 @@ let lista={
             nombre: 'Javier',
             comentario: "Precio?",
             imagen_perfil:"../images/users/javier.jpg",
-        }]
+        },{
+            nombre:"Metroo",
+            comentario:"Type shi",
+            imagen_perfil:"../images/users/metro.jpg"
+        }
+        ]
         },
     {
         id: 1,
