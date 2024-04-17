@@ -25,13 +25,25 @@ let lista={
         id: 1,
         nombre: "Casio G-Shock",
         descripcion: "Un reloj resistente a los golpes y con muchas funciones, ideal para actividades al aire libre.",
-        imagen: "casio-g-shock.jpg"
+        imagen: "casio-g-shock.jpg",
+        comentarios:[{
+            nombre: 'Fernando',
+            comentario: "Esta bueno, le faltan cosas para que e llame a comprarlo",
+            imagen_perfil:"../images/users/nano.jpg",
+            id:1
+        }]
         },
     {
         id: 2,
         nombre: 'Omega Speedmaster',
         descripcion: 'Conocido como el "Moonwatch", este reloj ha sido usado en misiones espaciales.',
-        imagen: 'omega-speedmaster.jpg'
+        imagen: 'omega-speedmaster.jpg',
+        comentarios:[{
+            nombre: 'Fernando',
+            comentario: "Me lo regalo mi señora, me gusta",
+            imagen_perfil:"../images/users/nano.jpg",
+            id:1
+        }]
         },
     {
         id: 3,
