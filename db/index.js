@@ -30,7 +30,7 @@ let lista={
             id: 2
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello",
+            comentario: "Muy bello, SIUUUUUUUUU",
             imagen_perfil:"../images/users/cristiano.jpg",
             id:3
         },{
