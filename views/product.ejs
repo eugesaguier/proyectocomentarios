@@ -7,7 +7,7 @@
 	<!-- product detail -->
 	<div class="container products-wrapper">
 		<div class="d-flex align-items-center">
-			<h2 class="products-title"><%= indexProd[id].nombre %></h2> 
+			<h2 class="products-title"><%= indexProd[1].nombre %></h2> 
 			<p class="product-detail-description">
 				<a href="product-add.html">Editar</a>
 			</p>
@@ -19,8 +19,8 @@
 					<p class="product-detail-description">
 						<%= indexProd[id].descripcion %></p>
 				</article>
-				<% for( let i = 0; i < indexProd[id].comentarios.length; i++ ) { %>
 				<div class="col-12 col-lg-4">
+					<% for( let i = 0; i < indexProd[id].comentarios.length; i++ ) { %>
 					<section class="comments">
 						<article>
 							<img src="<%= indexProd[id].comentarios[i].imagen_perfil %>" alt="">
@@ -32,13 +32,15 @@
 						</article>
 
 					</section>
+					<% } %>
 					<form class="form" action="" method="POST">
 						<input class="form-input" type="text" value="" placeholder="Agregar comentario">
 						<button type="submit" class="buy-now-button">AGREGAR COMENTARIO</button>
 					</form>
 					<hr>
+				
 				</div>
-				<% } %>
+				
 			</div>
 		</div>
 	</div>
