@@ -1,5 +1,15 @@
-///const icontroller = {
-///    mostrar: 18
-///}
+const db = require("../db/index")
+indexProd = db.productos
 
-//module.exports = icontroller 
+const indexController = {
+    index: function(req,res){
+        res.render('index', { 
+            title: 'Mercado Liebre' })
+    },
+    search: function(req,res){
+        res.render("search-results",{
+            title: "Mercado Liebre Argentina"
+        })
+    }}
+
+module.exports = indexController 

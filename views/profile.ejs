@@ -19,7 +19,7 @@
 				</div>
 				<div>
 					<ul class="">
-						<li>8 productos</li>
+						<li><%= indexProd.length %> Productos</li>
 						<li>200 seguidores</li>
 						<li>300 comentarios</li>
 					</ul>
@@ -47,7 +47,7 @@
 							<article class="product-box_data">
 								<h2><%= indexProd[i].nombre%></h2>
 								<p> <%=indexProd[i].descripcion%></p>
-								<p>Comentarios: 12</p>
+								<p> Comentarios: <%= indexProd[i].comentarios.length %></p>
 							</article>
 						</a>
 					</section>

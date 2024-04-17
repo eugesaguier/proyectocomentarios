@@ -15,6 +15,7 @@ const usersController = {
    profile: function(req,res){
       res.render("profile",{
          title: "Mercado Liebre Argentina",
+         id: req.params.id
       })
    },
 

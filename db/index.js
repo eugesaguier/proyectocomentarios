@@ -1,12 +1,21 @@
 let lista={
     usuarios:[{
-        id: 11,
+        id: 1,
         email:"juanqueirolocuchuttini@gmail.com",
         usuario:"JuanTheGoat",
         contraseña:"Juanchi",
         fecha_de_nacimiento:"12/15/1999",
         dni:42255481,
         foto_de_perfil:"pelao.jpeg",
+        },
+    {
+        id: 2,
+        email:"nanoalonso@gmail.com",
+        usuario:"Fernando",
+        contraseña:"magic33",
+        fecha_de_nacimiento:"07/29/1981",
+        dni:33333333,    
+        foto_de_perfil:"nano.jpg",
         }
     ],
     productos:[{
@@ -18,20 +27,18 @@ let lista={
             nombre: 'Fernando',
             comentario: "Mi favorito",
             imagen_perfil:"../images/users/nano.jpg",
+            id: 2
         },{
             nombre: 'Cristiano',
             comentario: "Muy bello",
             imagen_perfil:"../images/users/cristiano.jpg",
+            id:3
         },{
             nombre: 'Javier',
             comentario: "Precio?",
             imagen_perfil:"../images/users/javier.jpg",
-        },{
-            nombre:"Metroo",
-            comentario:"Type shi",
-            imagen_perfil:"../images/users/metro.jpg"
-        }
-        ]
+            id:4
+        }]
         },
     {
         id: 1,
@@ -173,7 +180,7 @@ let lista={
             id: 1
         }, {
             nombre: 'Cristiano',
-            comentario: "¿Hacen envíos internacionales?",
+            comentario: "¿Cual es la duracion de la bateria?",
             imagen_perfil: "../images/users/cristiano.jpg",
             id: 1
         }, {
@@ -193,7 +200,7 @@ let lista={
             imagen_perfil: "../images/users/nano.jpg",
         }, {
             nombre: 'Cristiano',
-            comentario: "¿Cuál es la duración de la batería?",
+            comentario: "¿Hacen envíos internacionales?",
             imagen_perfil: "../images/users/cristiano.jpg",
         }, {
             nombre: 'Javier',
