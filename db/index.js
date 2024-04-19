@@ -3,7 +3,7 @@ let lista={
         id: 0,
         email:"juanqueirolocuchuttini@gmail.com",
         usuario:"Cristiano",
-        contraseña:"Juanchi",
+        contraseña:"bichosiu",
         fecha_de_nacimiento:"12/15/1999",
         dni:42255481,
         foto_de_perfil:"cristiano.jpg",
@@ -16,41 +16,15 @@ let lista={
         fecha_de_nacimiento:"07/29/1981",
         dni:33333333,    
         foto_de_perfil:"nano.jpg",
-        comentarios:[{
-            id: 0,
-            comentario: "Me encanta este reloj",
-            id_producto: 0
-        }, {
-            id: 1,
-            comentario: "Impresionante trabajo",
-            id_producto: 8
-        }, {
-            id: 2,
-            comentario: "Me lo regalo mi señora, me gusta",
-            id_producto: 2
-        }]
     },
     {
-            id: 2,
-            email:"Javier@gmail.com",
-            usuario:"Javier",
-            contraseña:"magic33",
-            fecha_de_nacimiento:"07/29/1981",
-            dni:33333333,    
-            foto_de_perfil:"javier.jpg",
-            comentarios:[{
-                id: 0,
-                comentario: "Me encanta este reloj",
-                id_producto: 0
-            }, {
-                id: 1,
-                comentario: "Impresionante trabajo",
-                id_producto: 8
-            }, {
-                id: 2,
-                comentario: "Me lo regalo mi señora, me gusta",
-                id_producto: 2
-            }]
+        id: 2,
+        email:"Javier@gmail.com",
+        usuario:"Javier",
+        contraseña:"magic33",
+        fecha_de_nacimiento:"07/29/1981",
+        dni:33333333,    
+        foto_de_perfil:"javier.jpg",
         }
     ],
     productos:[{
