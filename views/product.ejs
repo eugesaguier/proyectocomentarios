@@ -26,7 +26,7 @@
 							<img src="<%= indexProd[id].comentarios[i].imagen_perfil %>" alt="">
 							<div class="data">
 								<p class="user">
-								<strong> <a href="/users/profile"><%= indexProd[id].comentarios[i].nombre %> </a> </strong>
+								<strong> <a href="/users/<%= indexProd[id].comentarios[i].id_user %>"><%= indexProd[id].comentarios[i].nombre %> </a> </strong>
 								<%= indexProd[id].comentarios[i].comentario %> </p>
 							</div>
 						</article>

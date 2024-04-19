@@ -1,21 +1,56 @@
 let lista={
     usuarios:[{
-        id: 1,
+        id: 0,
         email:"juanqueirolocuchuttini@gmail.com",
-        usuario:"JuanTheGoat",
+        usuario:"Cristiano",
         contraseña:"Juanchi",
         fecha_de_nacimiento:"12/15/1999",
         dni:42255481,
-        foto_de_perfil:"pelao.jpeg",
+        foto_de_perfil:"cristiano.jpg",
         },
     {
-        id: 2,
+        id: 1,
         email:"nanoalonso@gmail.com",
         usuario:"Fernando",
         contraseña:"magic33",
         fecha_de_nacimiento:"07/29/1981",
         dni:33333333,    
         foto_de_perfil:"nano.jpg",
+        comentarios:[{
+            id: 0,
+            comentario: "Me encanta este reloj",
+            id_producto: 0
+        }, {
+            id: 1,
+            comentario: "Impresionante trabajo",
+            id_producto: 8
+        }, {
+            id: 2,
+            comentario: "Me lo regalo mi señora, me gusta",
+            id_producto: 2
+        }]
+    },
+    {
+            id: 2,
+            email:"Javier@gmail.com",
+            usuario:"Javier",
+            contraseña:"magic33",
+            fecha_de_nacimiento:"07/29/1981",
+            dni:33333333,    
+            foto_de_perfil:"javier.jpg",
+            comentarios:[{
+                id: 0,
+                comentario: "Me encanta este reloj",
+                id_producto: 0
+            }, {
+                id: 1,
+                comentario: "Impresionante trabajo",
+                id_producto: 8
+            }, {
+                id: 2,
+                comentario: "Me lo regalo mi señora, me gusta",
+                id_producto: 2
+            }]
         }
     ],
     productos:[{
@@ -27,17 +62,17 @@ let lista={
             nombre: 'Fernando',
             comentario: "Mi favorito",
             imagen_perfil:"../images/users/nano.jpg",
-            id: 2
+            id_user: 1
         },{
             nombre: 'Cristiano',
             comentario: "Muy bello, SIUUUUUUUUU",
             imagen_perfil:"../images/users/cristiano.jpg",
-            id:3
+            id_user: 0
         },{
             nombre: 'Javier',
             comentario: "Precio?",
             imagen_perfil:"../images/users/javier.jpg",
-            id:4
+            id_user: 2
         }]
         },
     {
@@ -47,16 +82,19 @@ let lista={
         imagen: "casio-g-shock.jpg",
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Esta bueno, le faltan cosas para que me llame a comprarlo",
+            comentario: "Mi favorito",
             imagen_perfil:"../images/users/nano.jpg",
-        }, {
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "Increíble diseño",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Cuál es la disponibilidad?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]
         },
     {
@@ -66,16 +104,19 @@ let lista={
         imagen: 'omega-speedmaster.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Me lo regalo mi señora, me gusta",
+            comentario: "Mi favorito",
             imagen_perfil:"../images/users/nano.jpg",
-        }, {
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "Excelente calidad",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Puedo ver más fotos?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]
         },
     {
@@ -83,90 +124,107 @@ let lista={
         nombre: 'Apple Watch Series 7',
         descripcion: 'Un reloj inteligente que ofrece seguimiento de la salud y fitness, así como notificaciones inteligentes.',
         imagen: 'apple-watch.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "Lo compré y estoy muy satisfecho",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "¿Puedo pagar con tarjeta de crédito?",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Es compatible con otros dispositivos?",
-            imagen_perfil: "../images/users/javier.jpg",
-        }]},
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
+        }]
+    },
     {
         id: 4,
         nombre: 'Seiko SKX007',
         descripcion: 'Un reloj de buceo asequible y muy apreciado por los entusiastas de los relojes.',
         imagen: 'seiko-skx007.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "No me convence del todo, seguiré buscando",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "Increíble diseño",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "Lo recomendaría, es muy útil",
-            imagen_perfil: "../images/users/javier.jpg",
-        }]},
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
+        }]
+    },
     {
         id: 5,
         nombre: 'Tag Heuer Carrera',
         descripcion: 'Un elegante reloj deportivo con un diseño sofisticado.',
         imagen: 'tag-heuer-carrera.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "No era lo que buscaba, lo devolví",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "Me gustaría ver más opciones de colores",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Cuál es la política de devoluciones?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]},
     {
         id: 6,
         nombre: 'Timex Weekender',
         descripcion: 'Un reloj casual y asequible con un diseño clásico.',
         imagen: 'timex-weekender.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "Excelente producto, lo recomiendo totalmente",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "¿Se puede ajustar el tamaño?",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Tienen tienda física?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]},
     {
         id: 7,
         nombre: 'Citizen Eco-Drive',
         descripcion: 'Un reloj que se carga con la luz solar, eliminando la necesidad de cambiar la batería.',
         imagen: 'citizen-eco-drive.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "Me gustó mucho, buena relación calidad-precio",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "¿Cuál es el tiempo de entrega?",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Tienen servicio de instalación?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]},
     {
         id: 8,
@@ -175,37 +233,40 @@ let lista={
         imagen: 'fossil-gen-6.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Impresionante trabajo",
-            imagen_perfil: "../images/users/nano.jpg",
-            id: 1
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "¿Cual es la duracion de la bateria?",
-            imagen_perfil: "../images/users/cristiano.jpg",
-            id: 1
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Tienen descuentos por cantidad?",
-            imagen_perfil: "../images/users/javier.jpg",
-            id: 1
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]},
     {
         id: 9,
         nombre: 'Audemars Piguet Royal Oak',
         descripcion: 'Un reloj de lujo con un diseño distintivo de brazalete integrado.',
         imagen: 'audemars-piguet-royal-oak.jpg',
-        comentarios: [{
+        comentarios:[{
             nombre: 'Fernando',
-            comentario: "No lo recomiendo, se rompió rápido",
-            imagen_perfil: "../images/users/nano.jpg",
-        }, {
+            comentario: "Mi favorito",
+            imagen_perfil:"../images/users/nano.jpg",
+            id_user: 1
+        },{
             nombre: 'Cristiano',
-            comentario: "¿Hacen envíos internacionales?",
-            imagen_perfil: "../images/users/cristiano.jpg",
-        }, {
+            comentario: "Muy bello, SIUUUUUUUUU",
+            imagen_perfil:"../images/users/cristiano.jpg",
+            id_user: 0
+        },{
             nombre: 'Javier',
-            comentario: "¿Hay stock disponible?",
-            imagen_perfil: "../images/users/javier.jpg",
+            comentario: "Precio?",
+            imagen_perfil:"../images/users/javier.jpg",
+            id_user: 2
         }]}
 ]}
 module.exports= lista

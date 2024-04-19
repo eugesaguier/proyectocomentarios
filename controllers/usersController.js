@@ -23,7 +23,13 @@ const usersController = {
       res.render("profile-edit",{
          title:"Mercado Liebre Argentina"
       })
-   }
+   }, 
+   user: function(req,res){                
+      res.render("user", {
+         title: "Mercado Liebre Argentina",
+         id: req.params.id
+      })
+   }  
 };
 
 module.exports = usersController;
