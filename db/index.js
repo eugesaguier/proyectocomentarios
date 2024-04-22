@@ -1,9 +1,9 @@
 let lista={
     usuarios:[{
         id: 0,
-        email:"cristiano@gmail.com",
+        email:"juanqueirolocuchuttini@gmail.com",
         usuario:"Cristiano",
-        contraseña:"bichosiu",
+        contraseña:"Juanchi",
         fecha_de_nacimiento:"12/15/1999",
         dni:42255481,
         foto_de_perfil:"cristiano.jpg",
@@ -21,7 +21,7 @@ let lista={
         id: 2,
         email:"Javier@gmail.com",
         usuario:"Javier",
-        contraseña:"lalibertadavanza",
+        contraseña:"magic33",
         fecha_de_nacimiento:"07/29/1981",
         dni:33333333,    
         foto_de_perfil:"javier.jpg",
@@ -34,7 +34,7 @@ let lista={
         imagen: 'rolex-submariner.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Mi Favorito",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
@@ -56,17 +56,17 @@ let lista={
         imagen: "casio-g-shock.jpg",
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Me lo regalo mi señora, me gusta",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Me encanta este reloj",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Genial!",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]
@@ -78,17 +78,17 @@ let lista={
         imagen: 'omega-speedmaster.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "No me gusta nada",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Malisimo este",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]
@@ -100,17 +100,17 @@ let lista={
         imagen: 'apple-watch.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Impresionante trabajo",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Increíble diseño",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "¿Cuál es la disponibilidad??",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]
@@ -122,17 +122,17 @@ let lista={
         imagen: 'seiko-skx007.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Una maravilla de producto",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Excelente calidad",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "¿Puedo ver más fotos?",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]
@@ -144,17 +144,17 @@ let lista={
         imagen: 'tag-heuer-carrera.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Sin duda, el mejor",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "¿Hacen envíos internacionales?",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "¿Tienen descuentos por cantidad?",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]},
@@ -165,17 +165,17 @@ let lista={
         imagen: 'timex-weekender.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "¡Lo necesito en mi vida!",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "¿Hay diferentes colores disponibles?",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Es resistente al Agua?",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]},
@@ -186,17 +186,17 @@ let lista={
         imagen: 'citizen-eco-drive.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Un diseño unico",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Sin palabras, 10/10",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Combina con mi muñeca",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]},
@@ -207,17 +207,17 @@ let lista={
         imagen: 'fossil-gen-6.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Esta bien",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Increible",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Tengo uno igual",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]},
@@ -228,17 +228,17 @@ let lista={
         imagen: 'audemars-piguet-royal-oak.jpg',
         comentarios:[{
             nombre: 'Fernando',
-            comentario: "Mi favorito",
+            comentario: "Me esperaba mas por el precio que tiene",
             imagen_perfil:"../images/users/nano.jpg",
             id_user: 1
         },{
             nombre: 'Cristiano',
-            comentario: "Muy bello, SIUUUUUUUUU",
+            comentario: "Normalito",
             imagen_perfil:"../images/users/cristiano.jpg",
             id_user: 0
         },{
             nombre: 'Javier',
-            comentario: "Precio?",
+            comentario: "Se puede pagar en cuotas?",
             imagen_perfil:"../images/users/javier.jpg",
             id_user: 2
         }]}
