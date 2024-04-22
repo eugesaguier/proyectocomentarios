@@ -4,11 +4,11 @@ indexProd = db.productos
 const indexController = {
     index: function(req,res){
         res.render('index', { 
-            title: 'Mercado Liebre' })
+            title: 'Laurent Watches' })
     },
     search: function(req,res){
         res.render("search-results",{
-            title: "Mercado Liebre Argentina"
+            title: "Laurent Watches"
         })
     }}
 

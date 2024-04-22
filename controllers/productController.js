@@ -4,13 +4,13 @@ indexProd = db.productos
 const productController = {
     product: function(req,res){
         res.render("product",{
-            title: "Mercado Liebre Argentina",
+            title: "Laurent Watches",
             id:req.params.id
         })
     },
     add: function(req,res) {
         res.render("product-add",{
-            title: 'Mercado Liebre Argentina'
+            title: 'Laurent Watches'
         });
     }
 }

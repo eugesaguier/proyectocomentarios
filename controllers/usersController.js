@@ -4,29 +4,29 @@ index = db.usuarios
 const usersController = {
    register: function(req, res) {
       res.render('register', {
-         title: 'Mercado Liebre Argentina'
+         title: 'Laurent Watches'
       });
    },
    login: function(req,res){
       res.render('login',{
-         title: 'Mercado Liebre Argentina'
+         title: 'Laurent Watches'
       })
    },
    profile: function(req,res){
       res.render("profile",{
-         title: "Mercado Liebre Argentina",
+         title: "Laurent Watches",
          id: req.params.id
       })
    },
 
    profileEdit: function(req,res){
       res.render("profile-edit",{
-         title:"Mercado Liebre Argentina"
+         title:"Laurent Watches"
       })
    }, 
    user: function(req,res){                
       res.render("user", {
-         title: "Mercado Liebre Argentina",
+         title: "Laurent Watches",
          id: req.params.id
       })
    }  
