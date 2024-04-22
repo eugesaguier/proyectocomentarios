@@ -21,9 +21,9 @@ let lista={
         id: 2,
         email:"Javier@gmail.com",
         usuario:"Javier",
-        contraseña:"magic33",
-        fecha_de_nacimiento:"07/29/1981",
-        dni:33333333,    
+        contraseña:"magic333",
+        fecha_de_nacimiento:"09/20/1986",
+        dni:33333334,    
         foto_de_perfil:"javier.jpg",
         }
     ],
