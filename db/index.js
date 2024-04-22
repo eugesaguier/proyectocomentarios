@@ -1,7 +1,7 @@
 let lista={
     usuarios:[{
         id: 0,
-        email:"juanqueirolocuchuttini@gmail.com",
+        email:"cristiano@gmail.com",
         usuario:"Cristiano",
         contraseña:"bichosiu",
         fecha_de_nacimiento:"12/15/1999",
@@ -21,7 +21,7 @@ let lista={
         id: 2,
         email:"Javier@gmail.com",
         usuario:"Javier",
-        contraseña:"magic33",
+        contraseña:"lalibertadavanza",
         fecha_de_nacimiento:"07/29/1981",
         dni:33333333,    
         foto_de_perfil:"javier.jpg",

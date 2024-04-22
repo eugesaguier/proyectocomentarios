@@ -1,5 +1,7 @@
 /*====== Fonts ======*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oswald&display=swap');
+
 
 
 /*====== Variables ======*/
@@ -10,7 +12,8 @@
   --gray: #666666;
   --light-gray: #ebebeb;
   --green: #39b54a;
-  --base-font-family: 'Roboto', sans-serif
+  --base-font-family: 'Oswald', sans-serif;
+  --base-font-titles: "Fira Sans", sans-serif;
 }
 
 
@@ -40,6 +43,10 @@ ol {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+h2{
+  font-family: var(--base-font-titles);
 }
 
 a {
